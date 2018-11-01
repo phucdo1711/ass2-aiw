@@ -4,7 +4,7 @@ import {LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend,LabelList}
 
 const Chart = ({data}) => (
     <div style={{fontSize: 12}}>
-    <LineChart width={700} height={200} data={data}
+    <LineChart width={700} height={170} data={data}
             margin={{top: 20, right: 30, left: 30, bottom: 5}}>
        <XAxis dataKey="name"/>
        <Tooltip/>
